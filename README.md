@@ -7,6 +7,11 @@ This repository contains multiple components related to medical report summariza
 ## Dataset 
 The mimic dataset can be downloaded from https://physionet.org/content/mimiciv/2.2/ after taking the training courses. The Pubmed summarization dataset can be downloaded from https://huggingface.co/datasets/ccdv/pubmed-summarization.
 
+## Requirements
+- `python3`
+- `conda create --name env `
+- `pip3 install -r requirements.txt`
+
 ## Directory Structure
 
 
