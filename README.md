@@ -4,6 +4,9 @@
 
 This repository contains multiple components related to medical report summarization and evaluation. It includes both baseline and proposed methods for generating and evaluating reports, as well as test datasets.
 
+## Dataset 
+The mimic dataset can be downloaded from https://physionet.org/content/mimiciv/2.2/ after taking the training courses. The Pubmed summarization dataset can be downloaded from https://huggingface.co/datasets/ccdv/pubmed-summarization.
+
 ## Directory Structure
 
 
@@ -40,7 +43,7 @@ This repository contains multiple components related to medical report summariza
 ```
 python main_train.py \
 --image_dir no_use \
---ann_path annotation.json \
+--ann_path train.json \
 --dataset_name mimic_cxr \
 --max_seq_length 100 \
 --threshold 10 \
@@ -57,7 +60,7 @@ python main_train.py \
 ```
 python main_test.py \
         --image_dir data/mimic_cxr/images/ \
-        --ann_path annotation.json \
+        --ann_path train.json \
         --dataset_name mimic_cxr \
         --max_seq_length 100 \
         --threshold 10 \
