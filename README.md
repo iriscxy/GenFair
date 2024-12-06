@@ -112,3 +112,6 @@ CUDA_VISIBLE_DEVICES=0 python3 run_mybart.py \
 ```
 
 Use the `chexpert-evaluation` directory to evaluate the Chexpert score of the generated reports, which helps in assessing their clinical relevance.
+
+
+You can also download the checkpoint trained for the radiology summary generation task here: [Download Checkpoint](https://drive.google.com/file/d/1R1n6TNs--9SlvR6cLu2VxUMdLb2wJzdU/view?usp=sharing)
